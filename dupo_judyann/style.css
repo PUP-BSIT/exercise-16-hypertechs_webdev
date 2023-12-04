@@ -1,0 +1,119 @@
+img {
+	width:350px;
+	height:350px;
+}
+
+img.beach1 {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(200%);
+}
+img.beach2 {
+  -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+}
+
+img.beach3 {
+  -webkit-filter: brightness(100%); /* Safari 6.0 - 9.0 */
+  filter: brightness(100%);
+}
+
+img.nature1 {
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+img.nature2 {
+  -webkit-filter: invert(100%); /* Safari 6.0 - 9.0 */
+  filter: invert(100%);
+}
+
+img.nature3 {
+  -webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+  filter: opacity(50%);
+}
+
+html.whole {border-style: ridge;}
+
+body {
+  background: rgb(86, 156, 131) ;
+}
+
+h1.my-header {
+	background-color:rgb(109, 178, 187);
+	color:#2341ca;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Georgia;
+	text-align: center;
+}
+
+h2.test {
+	color:blue;
+}
+
+h2.gal {
+	color:blue;
+}
+
+li.hike {
+  font-weight: bold;
+}
+
+li.ball {
+  font-weight: bold;
+}
+
+li.movie {
+  font-weight: bold;
+}
+
+li.read {
+  font-weight: bold;
+}
+
+li.travel {
+  font-weight: bold;
+}
+
+div.gallery {
+	border-style: double;
+}
+
+h1.hobbies {color:blue;
+	background-color:powderblue;}
+h1.Works {color:blue;
+	background-color:powderblue;}
+h1.goals {color:blue;
+	background-color:powderblue;}
+
+h2.gal {
+	background-color:powderblue;
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+div.my-hobbies {border-style: ridge;}
+div.my-works {border-style: ridge;}
+div.my-goals {border-style: ridge;}
+div.testimonial {border-style: ridge;}
+div.comment {border-style: ridge;}
+
+ul {
+	font-size: 25px;
+}
+
+ol {
+	font-size: 25px;
+}
+
+h2.test {
+	font-size: 35px;
+	background:powderblue;
+	color:blue;
+}
+
+div.input-style {
+    white-space: pre;
+}
