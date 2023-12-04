@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(76, 74, 74);
+}
+
+#container {
+    display: grid;
+    grid-template-areas: 
+    ". item1 . "
+    ". item2 ."
+    ". item3 .";
+}
+
+#search_container {
+    margin-bottom: 20px;
+    grid-area: item1;
+    text-align: center;
+}
+
+#search_input {
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgb(254, 128, 60);
+}
+  
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: rgb(225, 106, 41);
+}
+ 
+#country_details {
+    grid-area: item2;
+    margin:5px ;
+    color: aliceblue;
+}
+
+#region_countries {
+    grid-area: item3;
+    background-color: rgb(254, 128, 60);
+}
+
+ul {
+    column-count: 3; /*number of columns */
+    list-style: none;
+    padding: 0;
+}
+  
+li {
+    /* Prevent items from breaking across columns */
+    break-inside: avoid-column; 
+    margin-bottom: 5px; /* Adjust spacing between items */
+}
+
+p#web_page {
+    font-family:Verdana,Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(225, 106, 41); 
+    text-shadow:
+    -1px -1px 0 #000, /* Top-left shadow */
+    1px -1px 0 #000,  /* Top-right shadow */
+    -1px 1px 0 #000,  /* Bottom-left shadow */
+    1px 1px 0 #000;   /* Bottom-right shadow */
+}
+
+img{
+    max-width: 25%;
+}
