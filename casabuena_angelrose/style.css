@@ -1,0 +1,51 @@
+img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 50%;
+ 	height: 50%;
+}
+
+div.everything{
+	border-style: double;
+	border-color: #8a307f;
+	border-style: solid;
+}
+
+h1.name{
+  color: black;
+  text-align: center;
+  padding: 25px;
+  background-color: #ffcce7;
+}
+
+div.info{
+	color: black;
+	border-color: darkviolet;
+	background-color: #daf2dc;
+}
+
+div.work{
+	color: black;
+	background-color: #81b7d2;
+}
+
+div.testi{
+	color: white;
+	background-color: #4d5198;
+}
+
+div.goal{
+	color: black;
+	background-color: #ffcce7;
+}
+
+div.comment{
+	color: black;
+	background-color: #daf2dc;
+}
+
+div.gallery{
+	color: black;
+	background-color: #81b7d2;
+}
