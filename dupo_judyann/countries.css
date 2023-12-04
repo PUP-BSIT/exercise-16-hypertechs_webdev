@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: rgb(172, 237, 209);
+}
+h1 {
+    color: #602626;
+}
+label {
+    margin-right: 10px;
+}
+#search_input {
+    padding: 8px;
+    margin-right: 10px;
+}
+#search_button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgb(10, 89, 120);
+    color: #fff;
+    border: none;
+}
+#country_details,
+#region_countries {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #2d6972;
+    background-color: #81d2df;
+    border-radius: 5px;
+}
+#region_countries {
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 5px;
+}

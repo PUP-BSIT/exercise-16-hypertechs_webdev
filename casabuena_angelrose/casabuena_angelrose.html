@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<div class="everything">
+		<title>casabuena_angelrose Page</title>
+		<link href = "style.css" rel = "stylesheet"/>
+	</head>
+	<body>
+		<div>
+			<h1 class="name">casabuena angelrose</h1>
+		</div>
+		<div class="info"> 
+			<h2>My Interests and Hobbies</h2>
+			<ul>
+			
+			<li>Walk with my Dog
+				   <p>Walking my Dog is like a Bonding Time for us.</p>
+			   </li>
+			<li>Watching Anime
+				   <p>I love watching Anime Series, 
+					my fave is Haikyuuu!</p>
+			   </li>
+			<li>Reading Books and Wattpad
+				   <p>I recommend to read the book title 
+					A man who sold his ferrari, Must Read!</p>  
+			   </li>
+			<li>Chit chat with my Family and Friends
+				   <p>Talking and telling them a story about what 
+					happened in my life while I'm not with them.</p>  
+			   </li>
+			<li>Stalking my Long Distance Friends
+				   <p>I just want to know what they are doing and how they 
+					are without interrupting them.</p>  
+			   </li>
+			  <ul>
+		</div>
+		
+		<div class="work">
+			<h2>My Works</h2>
+			<ol>
+				<li>
+					<a href = ".myworks.html" target="blank">
+						Software Engineer</a>
+			  </li>
+			</ol>
+		</div>
+
+		<div class="testi">
+			<h2>Testimonials</h2>
+			<p> "Angel is is a true asset to our team. Her creativity and
+				innovative thinking bring a fresh perspective 
+				to every project. She excels at communication and is 
+				able to convey complex ideas in a clear and concise manner.
+				It's a pleasure to work alongside her, 
+				and I'm excited to work with her more." 
+				- <strong> Martinez, Emmanuel</strong></p>
+		
+            <p> "Angel is a kind and hardworking person." 
+				- <strong> Serrano, Calib </strong></p>
+
+            <p>"Angel is an outstanding individual and a valuable 
+				member of our college group. Her unwavering commitment
+				to excellence is truly commendable. " 
+				- <strong>Danay, Mary Joy </strong></p>
+
+            <p>"Angel brings creativity to the table like no other. 
+				Her innovative ideas and artistic flair have breathed 
+				life into our projects. She is a true visionary 
+				and a joy to work alongside." 
+				- <strong>Dupo, Judy Ann </strong></p>		
+		</div>
+
+		<div class="goal">
+			<h2>Mis Metas</h2>
+			<p>To experience every happy things in life with my Family.</p>
+		</div>
+	
+		<div>
+        <form>
+            <div class="comment">
+			<label for="sortOrder">Sort Order:</label>
+			<select id="sortOrder" onchange="sortComments()">
+				<option value="desc">Descending</option>
+				<option value="asc">Ascending</option>
+			</select>
+			<p id="comment_section"></p>
+			<h2>Comments:</h2>
+			<p><strong>Emmanuel:</strong> That's a touching goal, Angel!</p>
+			<p><strong>maryjoydanay:</strong> Nice one, pretty webpage</p>
+			<p><strong>dupojudyann: </strong>Wow!</p>
+			<p><strong>Calib Serrano:</strong> I love my family</p>
+			<p><em><strong>casabuenaangel replied to everyone:</strong> 
+				Thankssomuch, guys!</em></p>
+
+            <p id="comment_id">
+                <h2>Add a Comment</h2>
+                <label for="name">Name:</label>
+                <input type="text" 
+                	id="name" 
+                	name="name" 
+					oninput="enableCommentButton()" 
+					required>
+				</p>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" 
+					name="comment" 
+					rows="1" 
+					cols="20" 
+					oninput="enableCommentButton()" 
+					required></textarea>
+			<div>
+                <button id="comment_button" 
+					type="submit" 
+					disabled>
+					Add Comment</button>
+			</div>
+            </div>
+        </form>     
+        </div>
+
+			<div class="gallery">
+				<h2>Gallery</h2>
+				<img
+					src ="building.jpg"
+					alt ="Building with Lights" 
+					class = "center"/>
+			</div>
+
+	<script src="script.js"></script>
+
+	</body>
+</div>
+</html>
