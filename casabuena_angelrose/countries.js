@@ -39,7 +39,7 @@ function displayCountryDetails(country, otherCountries) {
     `;
 
     otherCountriesDiv.innerHTML = 
-        '<h3>Other Countries in the Same Region:</h3>';
+        '<h4>Other Countries in the Same Region:</h4>';
     otherCountries.forEach(otherCountry => {
         otherCountriesDiv.innerHTML += `<p>${otherCountry.name.common}</p>`;
     });
