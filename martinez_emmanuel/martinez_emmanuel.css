@@ -8,6 +8,10 @@
   --button: #3d816e;
 }
 
+* {
+  font-family: "Google Sans", sans-serif;
+}
+
 body {
   background-color: var(--background);
   font-family: "Google Sans", sans-serif;
@@ -484,6 +488,93 @@ h3 {
 }
 #sort_dropdown:active {
   transform: scale(0.8);
+}
+
+/* Styling for the map image in countries.html */
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.map-image .map-svg {
+  width: 60%;
+  height: 60%;
+  padding: 20px;
+}
+
+.country-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text);
+}
+
+.country-title-desc-container {
+  max-width: 70%;
+}
+
+.country-title-desc-container h1 {
+  font-size: 40px;
+  margin: 0;
+  color: var(--primary);
+}
+
+.country-title-desc-container p {
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search_input {
+  width: 315px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--accent);
+  color: var(--text);
+  margin-right: 15px;
+  padding: 0;
+  font-size: 16px;
+  text-indent: 5px;
+  padding-left: 5px;
+}
+
+#search_input::placeholder {
+  color: var(--secondary);
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+button.search-button {
+  width: 90px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: var(--secondary);
+  color: var(--text);
+  padding: 0;
+  transition: background-color 0.3s ease, transform 0.05s ease-in-out;
+}
+
+button.search-button:hover {
+  background-color: var(--button);
+}
+
+button.search-button:active {
+  transform: scale(0.95);
 }
 
 footer {
