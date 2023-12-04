@@ -1,4 +1,4 @@
-let countryData; // Declare countryData variable at a higher scope
+let countryData;
 
 function searchCountry() {
     const search_input = document.getElementById('search_input').value;
