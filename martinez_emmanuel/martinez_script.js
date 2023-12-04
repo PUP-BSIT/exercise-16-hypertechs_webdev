@@ -116,7 +116,6 @@ document
     }
   });
 
-
 // Script for countries.html
 async function searchCountries() {
   const search_input = document.getElementById("search_input").value.trim();
@@ -161,8 +160,8 @@ function displayCountryDetails(country, region_countries) {
   countryDetailsContainer.style.textAlign = "left";
   regionCountriesContainer.style.textAlign = "left";
 
-  countryDetailsContainer.style.width = "500px";
-  regionCountriesContainer.style.width = "500px";
+  countryDetailsContainer.style.width = "800px";
+  regionCountriesContainer.style.width = "800px";
 
   countryDetailsContainer.innerHTML = "";
   regionCountriesContainer.innerHTML = "";
@@ -234,6 +233,7 @@ function displayCountryDetails(country, region_countries) {
     regionDescription.innerHTML = `The country of ${country.name.common} is
     located in <strong>${country.region}</strong>.
     Here are the other countries in this region:`;
+    regionDescription.style.width = "700px";
     regionDescriptionContainer.appendChild(regionDescription);
     regionCountriesContainer.appendChild(regionDescriptionContainer);
 
