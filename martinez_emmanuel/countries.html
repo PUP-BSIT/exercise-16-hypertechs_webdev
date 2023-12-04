@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="martinez_emmanuel.css">
+    <title>Countries of the World</title>
+</head>
+
+<body>
+    <div class="map-container">
+        <div class="map-image">
+            <img class="map-svg" src="./images/world_map_1.svg" alt="Map Image">
+        </div>
+    </div>
+    <div class="country-container">
+        <div class="country-title-desc-container">
+            <h1>Countries of the World</h1>
+            <p>Explore the world and uncover facts—
+                all within your fingertips!</p>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search_input"
+            placeholder="Type any country (e.g., Philippines)">
+            <button class="search-button"
+            onclick="searchCountries()">Search</button>
+        </div>
+        <div id="country_details"></div>
+        <div id="region_countries"></div>
+    </div>
+    <script src="martinez_script.js"></script>
+</body>
+
+</html>

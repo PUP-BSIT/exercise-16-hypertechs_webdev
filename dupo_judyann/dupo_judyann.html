@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="whole">
+<head>
+    <title>Dupo Judy Ann Page</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+        <div>
+            <h1 class="my-header">DUPO JUDY ANN</h1>
+        </div>
+
+        <div class="my-hobbies">
+            <h1 class="hobbies"> My Interest and Hobbies</h1>
+            <ul>
+                <li class="hike">HIKING</li>
+                    <p>Hiking is a hobby I've recently discovered 
+                        and grown to love.
+                    </p> 
+                
+                <li class="ball">VOLLEYBALL</li>
+                    <p>Playing volleyball with my friends is something 
+                        I thoroughly enjoy.
+                    </p>
+                
+                <li class="movie">WATCHING MOVIES</li>
+                    <p>For some, watching movies is not just a pastime but a 
+                        genuine passion. They may motivate individuals to 
+                        pursue their dreams, overcome challenges, 
+                        or make positive changes in their lives.
+                    </p>
+                
+                <li class="read">READING</li>
+                    <p>Reading books is one of the most enjoyable 
+                        activities for me. It is my go-to stress reliever;
+                        it transports me to another world every time I delve
+                        into a story.
+                    </p>
+                
+                <li class="travel">TRAVELING</li>
+                    <p>I really love exploring new places, cultures, 
+                        and cuisines around the world.
+                    </p>
+                
+            </ul>
+        </div>
+
+        <div class="my-works">
+            <h1 class="Works">My Works</h1>
+            <ol>
+                <li>
+                    <a href="#" target="blank">DESIGNING</a>
+                </li>
+                  <li>
+                    <a href="#" target="blank">ARTIST</a>
+                </li>
+                  <li>
+                    <a href="#" target="blank">PROGRAMMING</a>
+                </li>
+                  <li>
+                    <a href="#" target="blank">REPORTING</a>
+                </li>
+                  <li>
+                    <a href="#" target="blank">MODELING</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="my-goals">
+            <h1 class="goals">My Goals</h1>
+            <ul>
+                <li>
+                    <strong>Choose a Career Path:</strong> 
+                    Identify my desired career path within IT, 
+                    whether it's software development, cybersecurity,
+                    data analysis, network administration, 
+                    or another specialization.
+                </li>
+                <li>
+                    <strong>Learn Programming Languages:</strong>
+                    Achieve proficiency in programming languages 
+                    such as Python, Java, HTML.
+                </li>
+                <li>
+                    <strong>Develop Soft Skills: </strong>
+                    Enhance my communication, problem-solving, and
+                    teamwork skills, as they are essential in the workplace.
+                </li>
+                <li>
+                    <strong>Create a Personal Website: </strong>
+                    Build a professional online presence to 
+                    showcase my skills and projects.
+                </li>
+            </ul>
+        </div>
+        <div class="comment">
+            <div>
+                <h1>Comments:</h1>
+                <label for="sortOrder">Sort Order:</label>
+                    <select id="sortOrder" onchange="sortComments()">
+                        <option value="desc">Descending</option>
+                        <option value="asc">Ascending</option>
+                    </select>
+                <p id="id_comment"></p>
+                <p><strong>maryjoydanay:</strong> 
+                    Wow! How do you do the photos with different filters?hehe
+                </p>
+                <p><strong>Emmanuel:</strong> 
+                    I also like to learn more about Python!
+                    I've heard it's one of the in-demand programming 
+                    languages today.
+                </p>
+                <p><strong>Angel:</strong>  
+                    Wow! Beautiful. Eme.
+                </p>
+                <p><em>Maryjoy replied to Angel: Indeed</em></p>
+                <p><em>Judyann replied to Angel: Thank you!</em></p>
+                <p><strong>Emmanuel: </strong> Mga git bash master pala 'to e</p>
+                <p><strong>Calib Serrano: </strong> I like to learn Python</p>
+            </div>
+
+            <div>
+                <form>
+                    <div class="input-style"> 
+                        <h3 class="comment">ADD A COMMENT:</h3>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" 
+                        oninput="enableCommentButton()" required>
+                
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" name="comment" rows="4" cols="50" 
+                        oninput="enableCommentButton()" required></textarea>
+                        
+                        <button id="comment_button"  
+                        disabled>Add Comment</button>
+                    </div>
+                </form>   
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <h2 class="test">Testimonials</h2>
+            <p>Judy is a creative force to be reckoned with. 
+                Her skills and attention to user experience elevate
+                our projects to a whole new level. She has a keen eye 
+                for detail and a natural instinct for aesthetics.
+                Working with her is inspiring, and I'm confident 
+                she'll continue to inspire everyone on the team." - 
+                <strong>Martinez, Emmanuel</strong>
+            </p>
+
+            <p>"Judy is a kind and hardworking person." - 
+                <strong>Serrano, Calib</strong>
+            </p>
+
+             <p>It is with great pleasure that I write this testimonial 
+                for Judy. Throughout our time working together in college, 
+                she has consistently demonstrated exceptional dedication
+                and a keen intellect. - 
+                <strong>Danay, Mary Joy </strong>
+            </p>
+
+            <p> Working alongside Judy is a privilege due to her thoughtful
+                nature. She takes the time to listen to her colleagues, 
+                understand their perspectives, and offer well-reasoned advice
+                and support. Judy's thoughtfulness enriches our collaborative 
+                efforts and contributes to our success." - 
+                <strong>Casabuena, Angel Rose</strong> 
+            </p>
+            </div>
+
+        <div class="gallery">
+            <h2 class="gal">Gallery</h2>
+            <img class="beach1"
+                src="Beach.jpg"
+                alt="nature"
+            />
+            <img class="beach2"
+                src="Beach.jpg"
+                alt="nature"
+            />
+            <img class="beach3"
+                src="Beach.jpg"
+                alt="nature"
+            />
+            <img class="nature1"
+                src="Beach.jpg"
+                alt="nature"
+            />
+            <img class="nature2"
+                src="Beach.jpg"
+                alt="nature"
+            />
+            <img class="nature3"
+                src="Beach.jpg"
+                alt="nature"
+            />
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
