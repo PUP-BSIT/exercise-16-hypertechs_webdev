@@ -85,6 +85,8 @@ h1.Works {color:blue;
 	background-color:powderblue;}
 h1.goals {color:blue;
 	background-color:powderblue;}
+h1.countries {color:blue;
+	background-color:powderblue;}
 
 h2.gal {
 	background-color:powderblue;
@@ -99,6 +101,7 @@ div.my-works {border-style: ridge;}
 div.my-goals {border-style: ridge;}
 div.testimonial {border-style: ridge;}
 div.comment {border-style: ridge;}
+div.countries {border-style: ridge;}
 
 ul {
 	font-size: 25px;
@@ -116,4 +119,7 @@ h2.test {
 
 div.input-style {
     white-space: pre;
+}
+ul {
+	font-size: 25px;
 }
