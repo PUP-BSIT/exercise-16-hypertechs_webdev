@@ -2,7 +2,7 @@ let nameField = document.getElementById("name");
 let commentField = document.getElementById("comment");
 let commentButton = document.getElementById("comment_button");
 let comSection = document.getElementById("comment_section");
-let sortOrder = 'desc'; //Default sort order
+let sortOrder = 'desc';
 let commentQueue = [];
 
 function enableCommentButton() {
