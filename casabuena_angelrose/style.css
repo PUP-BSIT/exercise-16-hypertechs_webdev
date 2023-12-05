@@ -50,34 +50,28 @@ div.gallery{
 	background-color: #81b7d2;
 }
 
-div.all{
-	border-style: double;
-	border-color: #8a307f;
-	border-style: solid;
-}
-
 h1.title{
 	color: black;
 	text-align: center;
 	padding: 25px;
-	background-color: #ffcce7;
+	background-color: #81b7d2;
 }
 
 div.search{
-	color: black;
+	color: white;
 	text-align: center;
 	padding: 25px;
-	background-color: #daf2dc;
+	background-color: #4d5198;
 }
 
 div.country-details{
 	color: black;
 	text-align: center;
-	background-color: #81b7d2;
+	background-color: #ffcce7;
 }
 
 div.other-countries{
-	color: white;
+	color: black;
 	text-align: center;
-	background-color: #4d5198;
+	background-color: #daf2dc;
 }
